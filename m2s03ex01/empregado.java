@@ -1,11 +1,11 @@
 package m2s03ex01;
 
-public class empregado {
+public class Empregado {
     private String nome;
     private String cpf;
     private double salario;
 
-    public empregado(String nome, String cpf, double salario) {
+    public Empregado(String nome, String cpf, double salario) {
         this.nome = nome;
         this.cpf = cpf;
         this.salario = salario;
@@ -17,7 +17,7 @@ public class empregado {
     }
 
     public static void main(String[] args) {
-        empregado empregado = new empregado("Rodrigo Antunes", "12345678912", 3000);
+        Empregado empregado = new Empregado("Rodrigo Antunes", "12345678912", 3000);
 
         System.out.println("Funcionario: " + empregado.nome);
         System.out.println("CPF: " + empregado.cpf);
